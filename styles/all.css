@@ -1,0 +1,649 @@
+body {
+  font-family: "Palatino";
+  margin: 0;
+}
+
+/* CSS Styling of footer */
+
+footer {
+  background-color: #1b1c1d;
+  height: 340px;
+  text-align: center;
+}
+
+footer p {
+  color: #4d4d4d;
+  letter-spacing: 0.04em;
+  font-size: 14px;
+  display: inline-block;
+  vertical-align:middle;
+}
+footer a {
+  text-decoration: none;
+  color: #F33131;
+}
+
+footer a:hover {
+  opacity: 0.7;
+}
+.fa {
+  padding:10px;
+  width: 20px;
+  text-decoration: none;
+  margin: 0px 3px;
+  border-radius: 60%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background-color: #3B5998;
+  color: white;
+}
+
+.social_media {
+  padding-bottom: 0;
+  padding-top: 125px;
+}
+
+.orgsync {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #F33131;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.orgsync:hover {
+  opacity: 0.7;
+}
+
+h6 {
+  color: white;
+}
+
+h6 cite a {
+  color: white;
+}
+
+/* CSS Styling for about.php */
+
+h1 {
+  color: #FB1919;
+  width: 480px;
+  margin: 30px auto 30px auto;
+  text-align: center;
+}
+
+.title span {
+  font-size: 24px;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.background_text {
+  color: #ffffff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 4em;
+  text-align: center;
+  text-shadow: 2px 2px black;
+}
+
+.background {
+  /* -- source: original content, Armenian Students Organization at Cornell-- */
+  background-image: url("/uploads/images/about_cover2.jpg");
+  background-position: center;
+  height: 550px;
+  opacity: 0.9;
+  background-size: cover;
+}
+
+.bigimg {
+  width: 50%;
+  height: 50%;
+  margin-left: 25%;
+  border-radius: 3%;
+}
+.caption {
+  text-align: center;
+  font-size: 23px;
+  color: red;
+  font-style: italic;
+}
+.navBar li {
+  display: inline-block;
+  padding: 0 50px;
+  font-size: 20px;
+}
+
+.navBar a {
+  text-decoration: none;
+  color: #463F3F;
+}
+
+.navBar {
+  text-align: center;
+}
+.eventhead {
+	  font-size: 20px;
+	  margin: auto;
+	}
+
+.home:hover,
+.members:hover,
+.events_page:hover,
+.learn_more:hover,
+.contact:hover,
+.eboard:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.overview {
+  width: 780px;
+  opacity: 0.8;
+  margin: 0 auto 50px auto;
+  text-align: center;
+  line-height: 40px;
+  font-size: 14px;
+}
+.message {
+  width: 800px;
+  color: black;
+  opacity: 0.8;
+  margin-left: 23%;
+  text-align: center;
+  line-height: 40px;
+  font-size: 14px;
+
+}
+.pres_text {
+  width: 300px;
+  margin-left: 40%;
+  line-height: 40px;
+}
+
+.pres {
+  font-weight: bold;
+}
+
+.pres_message {
+  font-weight: lighter;
+}
+
+hr {
+  width: 1250px;
+  opacity: 0.5;
+  border-width: 0.7px;
+}
+
+#loginForm{
+  margin: 100px auto 100px auto;
+  text-align: center;
+  display: block;
+}
+#filter_form {
+  margin-top: 10px;
+  text-align: center;
+}
+.row-events {
+  display: flex;
+  flex-direction: row;
+}
+
+.row{
+  display: flex;
+
+flex-direction: row;
+
+justify-content: space-evenly;
+
+flex-wrap: wrap;
+}
+.post {
+  width: 33.3%;
+  margin-left: 20px;
+}
+.post a {
+  text-decoration: none;
+  color: red;
+}
+.post a:hover {
+  color: maroon;
+}
+.post li {
+  list-style: none;
+  text-align: center;
+  width: 85%;
+}
+.posth3 {
+  margin: 30px 0 0 0;
+  text-align: center;
+  width: 95%;
+}
+
+.post li {
+  line-height: 25px;
+}
+/* CSS Styling for events.php */
+.events{
+text-align: center;
+}
+
+.events_background {
+  /* -- source: original content, Armenian Students Organization at Cornell-- */
+  background-image: url("/uploads/images/events_background1.jpg");
+  background-position: center;
+  height: 550px;
+  opacity: 0.9;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.events h3{
+  color: #FB1919;
+}
+
+.ourevent{
+    width: 100%;
+
+}
+.addevent
+{
+  width: 90%;
+  margin-right: 20px;
+}
+
+.border-right{
+  border-right: 0.7px darkgrey solid;
+}
+
+.eventhead {
+  font-size: 20px;
+  margin: auto;
+}
+
+.deleteEve input {
+  cursor: pointer;
+  transition-property: all;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  transition-delay: initial;
+}
+
+.deleteEve input:hover {
+  box-shadow: 0 4px 4px 0 rgba(0,0,0,0.12),0 5px 8px 0 rgba(0,0,0,0.16);
+}
+
+#event-form li{
+list-style-type: none
+}
+
+.deleteBlog input {
+  cursor: pointer;
+  transition-property: all;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  transition-delay: initial;
+}
+
+.deleteBlog input:hover {
+  box-shadow: 0 4px 4px 0 rgba(0,0,0,0.12),0 5px 8px 0 rgba(0,0,0,0.16);
+}
+
+#uploadBlog {
+    text-align: center;
+}
+#uploadBlog li {
+  list-style: none;
+}
+
+#event-sug label{
+  display: inline-block;
+  text-align: right;
+  vertical-align: top;
+}
+
+button {
+  cursor: pointer;
+  transition-property: all;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  transition-delay: initial;
+}
+
+button:hover {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.12),0 5px 8px 0 rgba(0,0,0,0.16);
+}
+
+.first_row{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+.about_image {
+  height: 300px;
+  width: 300px;
+  margin-bottom: 20px;
+}
+.about_image:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.first_row a:active,
+.first_row a:focus {
+  outline: none;
+  border: none;
+}
+#delimg {
+  display: flex;
+  margin: 30px auto 30px auto;
+  cursor: pointer;
+}
+
+#delimg:hover {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.12),0 5px 8px 0 rgba(0,0,0,0.16);
+}
+
+.membersTitle {
+  font-size: 20px;
+}
+
+h3 {
+  margin: 50px 0 30px 40px;
+}
+
+.mem_categories {
+  display: flex;
+  flex-wrap:nowrap;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.mem_categories h4 {
+  font-weight: bold;
+}
+
+.member {
+  font-weight: bold;
+}
+
+/* CSS Styling of members.php */
+
+.members_background {
+  /* -- source: original content, Armenian Students Organization at Cornell-- */
+  background-image: url("/uploads/images/members_background.jpg");
+  background-position: center;
+  height: 550px;
+  opacity: 0.8;
+}
+
+.members_image {
+  height: 250px;
+  width: 250px;
+  margin-left: 50px;
+  border-radius: 50%;
+}
+
+figcaption {
+  margin-left: 48px;
+  font-size: 16px;
+  text-align: center;
+  line-height: 25px;
+}
+.member_bios {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+.figcap {
+  margin-left: 40px;
+  text-align: center;
+
+}
+.eboardtable {
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+th,td {
+  border-bottom: 1px solid red;
+  border-top: 1px solid red;
+  border-collapse: collapse;
+  padding: 10px;
+  text-align: center;
+}
+
+.deleteMember input {
+  cursor: pointer;
+  transition-property: all;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  transition-delay: initial;
+}
+
+.deleteMember input:hover {
+  box-shadow: 0 4px 4px 0 rgba(0,0,0,0.12),0 5px 8px 0 rgba(0,0,0,0.16);
+}
+
+.eventstable {
+    margin-left: 1%;
+    border-collapse: collapse;
+  }
+.eboardinfo {
+  text-align: center;
+  font-weight: bold;
+}
+
+.eboard_forms {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+}
+
+#addMember li,
+#uploadImage li,
+#uploadBlog li,
+#event-form li {
+  padding: 5px 0;
+  text-align:left;
+  font-size: 14px;
+}
+
+#addMember label,
+#uploadImage label,
+#uploadBlog label,
+#event-form label {
+  text-align:left;
+}
+
+.add_mem_btn {
+  margin-left: 120px;
+}
+
+#uploadImage input,
+#uploadBlog input,
+#event-form input,
+#addMember input {
+  width: 200px;
+  display: inline-block;
+}
+
+#uploadImage button {
+  margin-left: 100px;
+}
+
+#addblog,
+#eventadd {
+  margin-left: 60px;
+}
+
+.row_one_forms,
+.row_two_forms {
+  display: flex;
+  margin: 50px 0 50px 0;
+}
+
+legend {
+  font-weight: 700;
+}
+
+.row_one_forms fieldset,
+.row_two_forms fieldset {
+  height: 400px;
+}
+
+.eboard_background {
+  /* -- source: original content, Armenian Students Organization at Cornell-- */
+  background-image: url("/uploads/images/eboard_background.jpg");
+  background-position: center;
+  height: 550px;
+  opacity: 0.8;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.blog_background {
+  /* -- source: original content, Armenian Students Organization at Cornell-- */
+  background-image: url("/uploads/images/learn_more.jpg");
+  background-position: center;
+  height: 550px;
+  opacity: 0.8;
+  background-size: 100% 550px;
+  background-repeat: no-repeat;
+}
+
+#uploadImage {
+  text-align: center;
+
+}
+#uploadImage li {
+    list-style: none;
+}
+#uploadBlog {
+    text-align: center;
+}
+#uploadBlog li {
+  list-style: none;
+}
+
+#addMember ul{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  display: block;
+}
+
+#addMember li{
+  list-style: none;
+}
+
+#event-sug ul {
+  list-style-type: none;
+}
+
+#event-sug li {
+  padding: 10px;
+}
+
+#add-sug {
+  margin-left: 150px;
+}
+h4.mem_major{
+  margin-right: 50px;
+  width: 300px;
+  margin-top: 100px;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+h4.mem_bio{
+  margin-right: 110px;
+  display: block;
+  width: 250px;
+  margin-top: 100px;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+/* CSS Styling of contact.php */
+
+.contact_title {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 32px;
+  font-weight: lighter;
+}
+
+.contact_background {
+  /* -- source: original content, Armenian Students Organization at Cornell-- */
+  background-image: url("/uploads/images/contact_background.jpg");
+  background-position: center;
+  height: 550px;
+  opacity: 0.9;
+  background-repeat: no-repeat;
+}
+
+h4 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  margin: 0 auto;
+  font-weight:300;
+}
+
+h5 {
+  margin: 15px;
+  font-weight: 100;
+}
+
+.president,
+.vice_president,
+.treasurer,
+.secretary,
+.faculty_advisor {
+  text-align: center;
+  display: inline-block;
+}
+
+.email a {
+  text-decoration: none;
+}
+
+.email:hover {
+  opacity: 0.7;
+}
+
+.names {
+  font-size: 16px;
+}
+
+.positions {
+  padding: 40px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#loginForm button {
+  margin-left: 20px;
+}
+
+#suggestionadded{
+  margin-top: 30px;
+  margin-left: 52px;
+  color: red;
+}
